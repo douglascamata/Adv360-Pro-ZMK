@@ -64,7 +64,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY      &trans
  &trans  &trans  &trans  &trans  &trans  &trans   &none   &none  &trans  &kp NUMBER_7  &kp NUMBER_8         &kp N9     &kp KP_MINUS      &trans
- &trans  &trans  &trans  &trans  &trans  &trans   &none  &trans  &trans                                     &trans           &trans       &none  &trans  &kp NUMBER_4        &kp N5        &kp N6   &kp KP_PLUS  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans   &none  &trans  &trans       &trans           &trans       &none  &trans  &none &trans &kp NUMBER_4        &kp N5        &kp N6   &kp KP_PLUS  &trans
  &trans  &trans  &trans  &trans  &trans  &trans   &none   &none  &trans         &none         &none         &trans            &none       &none  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ENTER  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans        &kp N0   &kp NUMBER_0     &kp NUMBER_0  &kp KP_DOT  &trans        &trans
             >;
@@ -74,7 +74,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F10  &kp F11  &kp F12  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans   &none   &none  &trans   &kp F7   &kp F8   &kp F9  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans   &none  &trans  &trans                     &trans  &trans   &none  &trans  &kp F4  &kp F5  &kp F6  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans   &none  &trans  &trans    &none   &trans   &trans  &trans   &none  &trans  &kp F4  &kp F5  &kp F6  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans   &none   &none  &trans    &none    &none   &trans   &none   &none  &trans  &kp F1  &kp F2  &kp F3  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans
             >;
@@ -84,7 +84,7 @@
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4                   &none       &trans  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                   &none
   &none         &none         &none         &none         &none            &none             &bootloader  &bootloader         &none         &none            &none         &none         &none                   &none
-  &none         &none         &none         &none         &none            &none  &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR         &none                                   &bt BT_CLR    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none   &none   &none   &none   &none   &none
+  &none         &none         &none         &none         &none            &none  &rgb_ug RGB_MEFS_CMD 5   &bt BT_CLR         &none         &none            &none    &bt BT_CLR    &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5   &none   &none   &none   &none   &none   &none
   &none         &none         &none         &none         &none            &none                   &none        &none         &none         &none            &none         &none         &none                   &none   &none   &none   &none   &none   &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC  &rgb_ug RGB_TOG              &bl BL_TOG        &none         &none    &bl BL_TOG  &rgb_ug RGB_TOG    &bl BL_INC    &bl BL_DEC                   &none   &none   &none
             >;
@@ -94,7 +94,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP_ARROW  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans   &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans          &trans          &trans           &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans          &trans
             >;
